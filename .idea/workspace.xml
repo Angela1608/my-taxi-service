@@ -9,9 +9,76 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e801c59-045c-4437-ab86-aa1c872833ee" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="4e801c59-045c-4437-ab86-aa1c872833ee" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/src/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/init_db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/LogoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/AddCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/AddDriverToCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/DeleteCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/GetAllCarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/AddDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/DeleteDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/GetAllDriversController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/GetMyCurrentCarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/AddManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/DeleteManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/GetAllManufacturersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/CarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/CarDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/DriverDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/DriverDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/ManufacturerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/ManufacturerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/exception/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/exception/DataProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Injector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Manufacturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/AuthenticationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/DriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/DriverServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/GenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/ManufacturerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/ManufacturerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/util/ConnectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/web/filter/AuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/drivers/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/css/table_dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/drivers/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/drivers/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/manufacturers/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/views/manufacturers/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/my-taxi-service-1.0-SNAPSHOT/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +89,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -48,24 +116,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/angel/IdeaProjects/my-taxi-service/src/main/webapp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "last_opened_file_path": "C:/Users/angel/IdeaProjects/my-taxi-service/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\angel\IdeaProjects\my-taxi-service\src\main\webapp" />
       <recent name="C:\Users\angel\IdeaProjects\my-taxi-service\src\main\resources" />
       <recent name="C:\Users\angel\IdeaProjects\my-taxi-service\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="taxi.service" />
     </key>
   </component>
   <component name="RunManager">
@@ -169,7 +246,7 @@
       <workItem from="1652777547812" duration="940000" />
       <workItem from="1652778539622" duration="247000" />
       <workItem from="1652778823450" duration="865000" />
-      <workItem from="1652779701847" duration="2993000" />
+      <workItem from="1652779701847" duration="7306000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1652782114659</created>
@@ -178,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652782114659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1652782820872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652782820872</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1652782992013</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652782992013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +288,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
 </project>
