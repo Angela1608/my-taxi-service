@@ -1,7 +1,7 @@
 ﻿# :oncoming_taxi: Taxi Service :oncoming_taxi:
 ### Project description:
 This is Taxi service web application with the basic UI interface that allows you to create cars, manufacturers, drivers and attach drivers to the cars.
-### Features
+### Features:
 - registration as a driver
 - authentication as a driver
 - create/update/remove a manufacturer
@@ -16,7 +16,7 @@ This is Taxi service web application with the basic UI interface that allows you
 - DAO - data access layer
 - Service - application logic layer
 - Controllers - presentation layer
-### Used technologies and libraries
+### Used technologies and libraries:
 - Java 11
 - Git
 - Apache Maven
@@ -29,7 +29,7 @@ This is Taxi service web application with the basic UI interface that allows you
 - HTML/CSS
 - Checkstyle plugin
 - Project lombok
-### Steps to run the program on your computer
+### Steps to run the program on your computer:
 - Install MySQL
 - Install 9.0.54 version TomCat.
 - Fork this project and clone it.
