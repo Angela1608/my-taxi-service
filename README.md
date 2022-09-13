@@ -21,14 +21,12 @@ This is Taxi service web application with the basic UI interface that allows you
 - Git
 - Apache Maven
 - Apache TomCat
-- Apache log4j 2
 - MySQL
 - JDBC
 - Javax Servlet
 - JSTL
 - HTML/CSS
 - Checkstyle plugin
-- Project lombok
 ### Steps to run the program on your computer:
 - Install MySQL
 - Install 9.0.54 version TomCat.
